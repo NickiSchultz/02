@@ -1,0 +1,29 @@
+.content {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-areas: 
+    "d e";
+    text-decoration: none;
+}
+.content a{
+    text-decoration: none;
+}
+
+.content .dialogs {
+    padding: 10px;
+    grid-area: d;
+}
+
+.dialogs .dialogItem {
+    
+}
+
+.content .messages {
+    padding: 10px;
+    grid-area: e;
+    
+}
+
+.messages .message {
+   
+}

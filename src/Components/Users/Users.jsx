@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavLink } from 'react-router-dom'
 import userPhoto from './../../assets/images/icon-user-default.png'
 import styles from './Users.module.css'

@@ -1,4 +1,3 @@
-import React from 'react'
 import c from './ProfileInfo.module.css'
 import pan from './pan.jpg'
 import Preloader from '../../Common/Preloader/Preloader'

@@ -1,4 +1,3 @@
-import React from 'react';
 import c from './Myposts.module.css';
 import Post from './Post/Post.jsx';
 import ava from './ava.jpg'

@@ -11,10 +11,10 @@ const ProfileInfo = (props) => {
   return (
     <div className={c.content}>
       <div>
-        <img src={pan} />
+        <img src={pan} alt=''/>
       </div>
       <div className={c.discript}>
-        <img src={props.profile.photos.large}/>
+        <img src={props.profile.photos.large} alt=''/>
         <ProfileStatus status={props.status} updateStatus={props.updateStatus}/>
         ava+port
       </div>

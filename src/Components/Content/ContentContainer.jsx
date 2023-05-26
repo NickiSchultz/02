@@ -25,14 +25,13 @@ const withRouter = (Component) => {
 class ContentContainer extends React.Component {
 
     componentDidMount() {
-        let userId = this.props.match ? this.props.match.params.userId : 2;
+        let userId = this.props.router.params.id ? this.props.router.params.id : 28094;
         this.props.getUserProfile(userId)
         this.props.getStatus(userId)
         }
 
     render() {
-
-
+console.log(this.props)
         return (
             <Content {...this.props} profile={this.props.profile} 
                 status={this.props.status} 
